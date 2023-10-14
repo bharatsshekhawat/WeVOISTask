@@ -1,0 +1,65 @@
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #460897;
+  border-color: #460897;
+}
+
+.sortFilter {
+  text-align: center;
+}
+
+.sorting {
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.sortFilter select {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.salaryFilter {
+  border: 2px solid black;
+  padding: 10px; 
+  border-radius: 25px;
+}
+
+.sortFilter label{
+  font-size: 25px;
+}
+
+.sortFilter input{
+  font-size: 20px;
+  margin: 10px 5px;
+}
+
+.sortFilter button {
+  font-size: 18px;
+}
